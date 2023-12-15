@@ -1,0 +1,165 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+body{
+    background-color: rgba(2, 49, 19, 0.342);
+}
+#title {
+    background-color: rgba(2, 49, 19, 0.717);
+    padding-bottom: 1%;
+    text-align: center; 
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    line-height:1.5;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;
+}
+
+p {
+    font-family: 'Rubik', sans-serif; 
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    text-align:center;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+
+h5 {
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+h6 {
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight:lighter;
+    color:beige;
+}
+
+.nav-item {
+    padding:0 18px;
+    font-family: 'Comfortaa', sans-serif;    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+.navbar-link {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+
+/* Title Image */
+
+/*Feature Section*/
+#features {
+    padding: 7% 15%;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.icon {
+    margin-bottom:1rem;
+}
+
+/*Card Images on Homepage*/
+.card-img-bottom {
+    width: 500px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding-bottom: 20px;
+  }
+  div{
+    display: grid;
+    place-items: center;
+  }
+
+  .card {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+#AboutMeCards{
+    color:rgb(9, 59, 29);
+    margin: 5%;
+}
+
+/*Header under Aranza Holguin*/
+.container-fluid{
+    color: rgb(173, 211, 169);
+}
+
+/*Work Timeline*/
+.timeline {
+    list-style: none;
+    padding: 5%;
+  }
+  .timeline li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    text-align:center;
+  }
+  .timeline li::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color:bisque; 
+    border-radius: 50%;
+  }
+  .timeline li span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .timeline li p {
+    margin: 3;
+  }
+span {
+    text-align: center;
+}
+
+/*VIS 41 Carousel*/
+  /* CSS to customize the carousel images */
+.carousel-item img {
+    max-width: 40%; 
+    height: auto;
+}
+
+#footer {
+    padding: 5%;
+}
